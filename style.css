@@ -1,0 +1,30 @@
+*{
+    margin: 100;/*метод отвечает за внешний отступ объектов мы его обнулили*/
+    padding: 50;/*метод отвечает за внутренний отступ объектов мы его обнулили*/
+}
+body{
+    background-color: #ed32f0f0;/*задает цвет страницы*/ 
+}
+p{
+    border: 5px solid;/*сделали рамку сплошной*/
+    border-radius:20px;/*закруглили углы у рамки*/
+    border-color:black;/*указали цвет рамки*/
+    font-size: 50px;/*увеличили размер текста*/
+    margin:135px;/*внешний метод*/ 
+    padding: 70px;/*внутренний отступ*/
+    background-color:  #15ebebf0;/*задает цвет заднему фону*/
+    color:#f70a35f5;/*задает цвет текста*/
+    text-align: center;/*задает ориентацию текста*/
+}
+p:hover{
+    scale:1.1;
+}
+h1{
+    margin:50px;
+    padding:30px;
+    font-size: 40px;
+    color: #3bf71ef5;
+    text-align: center
+}
+    
+
